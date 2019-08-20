@@ -90,7 +90,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
                 app:layout_constraintTop_toBottomOf="@+id/homeViewPager"/>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_width="match_parent"
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx android:layout_width="match_parent"
                                                                            android:layout_height="50dp"
                                                                            tools:ignore="MissingConstraints"
                                                                            app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +100,7 @@
                                                                            app:menu="@menu/bottom_navigation_menu"
                                                                            android:id="@+id/bottomNavigationView">
 
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
